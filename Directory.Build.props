@@ -1,0 +1,26 @@
+<Project>
+  <PropertyGroup>
+    <GeneratePackageOnBuild>False</GeneratePackageOnBuild>
+    <GenerateAssemblyInfo>True</GenerateAssemblyInfo>
+    <GenerateDocumentationFile>True</GenerateDocumentationFile>
+    <LangVersion>Latest</LangVersion>
+    <NoWarn>$(NoWarn);</NoWarn>
+  </PropertyGroup>
+  <PropertyGroup>
+    <ApplicationVersion>$(Version)</ApplicationVersion>
+    <VersionPrefix>1.0.0</VersionPrefix>
+    <VersionSuffix>$(VersionSuffix)</VersionSuffix>
+    <Company></Company>
+    <Authors>Leonid Efremov</Authors>
+    <Description>Common API exceptions for AspNet.WebApi assemblies.</Description>
+    <PackageReleaseNotes></PackageReleaseNotes>
+    <PackageTags>webapi;exceptions;</PackageTags>
+    <IncludeSymbols>False</IncludeSymbols>
+    <PackageOutputPath>$(SolutionDir).packages</PackageOutputPath>
+    <PackageVersion>$(Version)</PackageVersion>
+    <RepositoryType>git</RepositoryType>
+    <RepositoryUrl>https://github.com/LeonidEfremov/aspnet.webapi.exceptions.git</RepositoryUrl>
+    <PackageLicenseUrl>https://github.com/LeonidEfremov/aspnet.webapi.exceptions/blob/master/license.md</PackageLicenseUrl>
+    <PackageLicenseType>MIT</PackageLicenseType>
+  </PropertyGroup>
+</Project>
