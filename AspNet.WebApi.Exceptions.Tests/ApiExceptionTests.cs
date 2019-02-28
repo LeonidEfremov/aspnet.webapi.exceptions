@@ -11,7 +11,7 @@ using Xunit.Asserts.Compare;
 namespace AspNet.WebApi.Exceptions.Tests
 {
     /// <summary>Exceptions tests.</summary>
-    public class ExceptionsTests
+    public class ApiExceptionTests
     {
 
         private readonly IEnumerable<Type> _exceptionTypes = from assembly in AppDomain.CurrentDomain.GetAssemblies()
