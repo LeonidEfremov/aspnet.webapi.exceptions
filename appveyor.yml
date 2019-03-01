@@ -31,7 +31,7 @@ before_build:
 
 build_script:
   - dotnet build --configuration %CONFIGURATION%
-  
+
 after_build:
   - dotnet pack --no-build
 
@@ -50,6 +50,8 @@ deploy:
     api_key: $(NUGET_APIKEY)
     skip_symbols: true
     artifact: 'nupkg'
+    on:
+      branch: master
 
   - provider: GitHub
     auth_token: $(GITHUB_TOKEN)
